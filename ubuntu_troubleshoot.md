@@ -1,4 +1,4 @@
-Switch to console 
+* Switch to console 
 ```
 Ctrl + alt + F1
 ```
@@ -17,3 +17,8 @@ Of course, you can simply restart the PC too:
 ```
 sudo reboot
 ```
+
+* Hold down Alt+Sys Rq(PrtScn key)key combination.
+press these keys in the order,one by one
+R E I S U B
+Spells “busier” backwards,and the system will be reboot after B is typed in the safe way.
