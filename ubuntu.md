@@ -18,6 +18,7 @@ Step 4. Install ubuntu
 
 Dont forget to change the boot options back or remove the flash drive before rebooting!
 
+### NVIDIA drivers problem
 When expiriencing problems due to nvidia drivers: 
 Disable graphics drivers by adding nomodeset to the kernel
 
@@ -25,3 +26,4 @@ Disable graphics drivers by adding nomodeset to the kernel
 
 * change the grub file at /etc/default/grub after the GRUB_CMDLINE_LINUX_DEFAULT
 
+* sudo apt-get install nvidia-384
