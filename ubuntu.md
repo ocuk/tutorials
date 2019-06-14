@@ -19,8 +19,9 @@ Step 4. Install ubuntu
 Dont forget to change the boot options back or remove the flash drive before rebooting!
 
 When expiriencing problems due to nvidia drivers: 
+Disable graphics drivers by adding nomodeset to the kernel
 
-on the grub screen, press e, add 'nomodeset' at the end of linux line, or
+* on the grub screen, press e, add 'nomodeset' at the end of linux line, or
 
-change the grub file at /etc/default/grub after the GRUB_CMDLINE_LINUX_DEFAULT
+* change the grub file at /etc/default/grub after the GRUB_CMDLINE_LINUX_DEFAULT
 
